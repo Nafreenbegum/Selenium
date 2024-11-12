@@ -1,0 +1,355 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 06 12:27:28 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (238 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNg.EnabledTest.demo2()'><b>demo2</b><br>Test class: TestNg.EnabledTest<br/>
+<a href="#Output-515715487" onClick='toggleBox("Output-515715487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-515715487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-515715487">
+demo2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.EnabledTest@a514af7</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo3()'><b>demo3</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1878169648" onClick='toggleBox("Output-1878169648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1878169648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878169648">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.dependsOn.LoginTest()'><b>LoginTest</b><br>Test class: TestNg.dependsOn<br/>
+<a href="#Output-293508253" onClick='toggleBox("Output-293508253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-293508253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-293508253">
+Login to App<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.dependsOn@44ebcd03</td></tr>
+<tr>
+<td title='TestNg.EnabledTest.demo3()'><b>demo3</b><br>Test class: TestNg.EnabledTest<br/>
+<a href="#Output-365590665" onClick='toggleBox("Output-365590665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365590665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365590665">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.EnabledTest@a514af7</td></tr>
+<tr>
+<td title='TestNg.PrioritizeTest.demo5()'><b>demo5</b><br>Test class: TestNg.PrioritizeTest<br/>
+<a href="#Output-815320891" onClick='toggleBox("Output-815320891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815320891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815320891">
+demo5<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.PrioritizeTest@3e58a80e</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo3()'><b>demo3</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1747352992" onClick='toggleBox("Output-1747352992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1747352992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1747352992">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo1()'><b>demo1</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1850777594" onClick='toggleBox("Output-1850777594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1850777594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1850777594">
+demo1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.dependsOn.RegistrationTest()'><b>RegistrationTest</b><br>Test class: TestNg.dependsOn<br/>
+<a href="#Output-989447607" onClick='toggleBox("Output-989447607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-989447607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-989447607">
+Register to App<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.dependsOn@44ebcd03</td></tr>
+<tr>
+<td title='TestNg.EnabledTest.demo4()'><b>demo4</b><br>Test class: TestNg.EnabledTest<br/>
+<a href="#Output-2053591126" onClick='toggleBox("Output-2053591126", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2053591126" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2053591126">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.EnabledTest@a514af7</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo2()'><b>demo2</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-681094281" onClick='toggleBox("Output-681094281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-681094281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-681094281">
+demo2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo2()'><b>demo2</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1748876332" onClick='toggleBox("Output-1748876332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1748876332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1748876332">
+demo2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.PrioritizeTest.demo4()'><b>demo4</b><br>Test class: TestNg.PrioritizeTest<br/>
+<a href="#Output-169663597" onClick='toggleBox("Output-169663597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-169663597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-169663597">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.PrioritizeTest@3e58a80e</td></tr>
+<tr>
+<td title='TestNg.EnabledTest.demo3()'><b>demo3</b><br>Test class: TestNg.EnabledTest<br/>
+<a href="#Output-1007412025" onClick='toggleBox("Output-1007412025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1007412025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1007412025">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.EnabledTest@a514af7</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo3()'><b>demo3</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-40075281" onClick='toggleBox("Output-40075281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40075281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40075281">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.PrioritizeTest.demo3()'><b>demo3</b><br>Test class: TestNg.PrioritizeTest<br/>
+<a href="#Output-1778629809" onClick='toggleBox("Output-1778629809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778629809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778629809">
+demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.PrioritizeTest@3e58a80e</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo4()'><b>demo4</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1781241150" onClick='toggleBox("Output-1781241150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1781241150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1781241150">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo4()'><b>demo4</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-1418620248" onClick='toggleBox("Output-1418620248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418620248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418620248">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.SampleTest.demo()'><b>demo</b><br>Test class: TestNg.SampleTest<br/>
+<a href="#Output-1462044018" onClick='toggleBox("Output-1462044018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1462044018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1462044018">
+Hello world...!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.SampleTest@4fb61f4a</td></tr>
+<tr>
+<td title='TestNg.PrioritizeTest.demo2()'><b>demo2</b><br>Test class: TestNg.PrioritizeTest<br/>
+<a href="#Output-101775274" onClick='toggleBox("Output-101775274", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101775274" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101775274">
+demo2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.PrioritizeTest@3e58a80e</td></tr>
+<tr>
+<td title='TestNg.dependsOn.updateProfileTest()'><b>updateProfileTest</b><br>Test class: TestNg.dependsOn<br/>
+<a href="#Output-1840903588" onClick='toggleBox("Output-1840903588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1840903588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1840903588">
+updatetheprofile<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.dependsOn@44ebcd03</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo4()'><b>demo4</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-825962150" onClick='toggleBox("Output-825962150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-825962150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-825962150">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.InvocationCount.demo4()'><b>demo4</b><br>Test class: TestNg.InvocationCount<br/>
+<a href="#Output-793138072" onClick='toggleBox("Output-793138072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793138072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793138072">
+demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.InvocationCount@6b927fb</td></tr>
+<tr>
+<td title='TestNg.PrioritizeTest.demo1()'><b>demo1</b><br>Test class: TestNg.PrioritizeTest<br/>
+<a href="#Output-391877669" onClick='toggleBox("Output-391877669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-391877669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-391877669">
+demo1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.PrioritizeTest@3e58a80e</td></tr>
+</table><p>
+</body>
+</html>
